@@ -10,9 +10,9 @@
 		92566BA525776EB700CA829A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92566BA425776EB700CA829A /* AppDelegate.swift */; };
 		92566BA725776EB700CA829A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92566BA625776EB700CA829A /* SceneDelegate.swift */; };
 		92566BA925776EB700CA829A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92566BA825776EB700CA829A /* ViewController.swift */; };
-		92566BAC25776EB700CA829A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92566BAA25776EB700CA829A /* Main.storyboard */; };
 		92566BAE25776EBA00CA829A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92566BAD25776EBA00CA829A /* Assets.xcassets */; };
 		92566BB125776EBA00CA829A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92566BAF25776EBA00CA829A /* LaunchScreen.storyboard */; };
+		92F6E2B125783CD300B5997F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 92566BB225776EBA00CA829A /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +51,7 @@
 				92566BA125776EB700CA829A /* Home work 2.1.app */,
 			);
 			name = Products;
+			path = Webinar_2.1;
 			sourceTree = "<group>";
 		};
 		92566BA325776EB700CA829A /* Home work 2.1 */ = {
@@ -64,7 +65,8 @@
 				92566BAF25776EBA00CA829A /* LaunchScreen.storyboard */,
 				92566BB225776EBA00CA829A /* Info.plist */,
 			);
-			path = "Home work 2.1";
+			name = "Home work 2.1";
+			path = Webinar_2.1;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -101,7 +103,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 92566B9C25776EB700CA829A /* Build configuration list for PBXProject "Home work 2.1" */;
+			buildConfigurationList = 92566B9C25776EB700CA829A /* Build configuration list for PBXProject "Webinar_2.1" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -124,9 +126,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92F6E2B125783CD300B5997F /* Info.plist in Resources */,
 				92566BB125776EBA00CA829A /* LaunchScreen.storyboard in Resources */,
 				92566BAE25776EBA00CA829A /* Assets.xcassets in Resources */,
-				92566BAC25776EB700CA829A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,7 +296,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.gitApp.Home-work-2-1";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gitApp.Webinar-2.1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -314,7 +316,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.gitApp.Home-work-2-1";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gitApp.Webinar-2.1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -324,7 +326,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		92566B9C25776EB700CA829A /* Build configuration list for PBXProject "Home work 2.1" */ = {
+		92566B9C25776EB700CA829A /* Build configuration list for PBXProject "Webinar_2.1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				92566BB325776EBA00CA829A /* Debug */,
